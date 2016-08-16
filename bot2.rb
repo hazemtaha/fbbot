@@ -148,11 +148,11 @@ Facebook::Messenger::Subscriptions.subscribe
 
 # setup Wit connection
 $actions = {
-  say: method(:say),
+  send: method(:send),
   error: method(:error),
   merge: method(:merge),
   clear_context: method(:clear_context),
   fetch_joke: method(:fetch_joke),
   fetch_categories: method(:fetch_categories)
 }
-$wit = Wit.new(ARGV.shift, $actions, Logger.new(STDERR))
+$wit = Wit.new(access_token: ARGV.shift,actions: $actions)
