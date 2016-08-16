@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'facebook-messenger'
-gem 'wit', git: 'git://github.com/k00ka/wit-ruby.git', branch: 'rhn'
+gem 'wit', git: 'https://github.com/wit-ai/wit-ruby', branch: 'master'
 
 gem 'byebug'
 gem 'pry'

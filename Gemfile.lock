@@ -1,9 +1,9 @@
 GIT
-  remote: git://github.com/k00ka/wit-ruby.git
-  revision: 5132b5cddcd5107aeb77dea8fcc3bde2e8a5102e
-  branch: rhn
+  remote: https://github.com/wit-ai/wit-ruby
+  revision: ac801a3b2e74abbfc8338b37e35f14654bc87e6b
+  branch: master
   specs:
-    wit (3.4.0)
+    wit (4.0.0)
 
 GEM
   remote: https://rubygems.org/

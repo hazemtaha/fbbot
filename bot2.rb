@@ -81,7 +81,7 @@ $JOKES = {
   "Windows isn’t a virus, viruses do something.",
   "Computers are like air conditioners: they stop working when you open Windows.",
   "Mac users swear by their Mac, PC users swear at their PC." ],
- 
+
 "development" => [
   "If at first you don’t succeed; call it version 1.0.",
   "My software never has bugs. It just develops random features.",
